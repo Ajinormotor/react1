@@ -1,0 +1,105 @@
+.pricing__top{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.pricing__top .section__title{
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+
+.pricing__top p{
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 200;
+    word-break: 2px;
+    width: 50%;
+    margin-left: 400px;
+    text-align: center;
+}
+
+.pricing__top .highlights{
+    color: var(--text-color);
+}
+
+.pricing__wrapper{
+    padding: 20px 0px 20px;
+   column-gap: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.pricing__item{
+    box-shadow:  rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 30%;
+    background: #fff;
+}
+
+.pricing__card-top{
+    padding: 30px;
+    border-bottom:  1px solid #d3cef2;
+    text-align: center;
+
+}
+
+.pricing__card-top h2{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.pricing__card-top .pricing{
+    font-size: 1.5rem;
+}
+
+.pricing__card-top .pricing span{
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.pricing__item .service{
+    padding: 20px;
+
+}
+
+.pricing__item .service ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1.5rem;
+    color: #666;
+    line-height: 28px;
+
+}
+
+.service  button{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    
+}
+
+.register__btn{
+    padding: 10px 15px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    outline: none;
+    background: var(--text-color);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease in;
+}
+
+.register__btn:hover{
+   transform: translateY(10px);
+    color: var(--text-color);
+    background: black;
+}

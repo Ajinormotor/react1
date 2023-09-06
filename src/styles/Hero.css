@@ -1,0 +1,33 @@
+
+.hero{
+    background: #B0E0E6;
+}
+
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px;
+    column-gap: 1.5rem;
+  
+}
+
+
+.hero__content .section__title{
+    line-height: 60px;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-right: 60px;
+}
+
+.highlights{
+    color: #fff;
+}
+
+
+.hero__content p{
+    color: #f1f1f1;
+    font-size: 20px;
+    line-height: 40px;
+}
